@@ -8558,6 +8558,11 @@ void FakeVimHandler::installEventFilter()
     d->installEventFilter();
 }
 
+void FakeVimHandler::removeEventFilter()
+{
+    d->removeEventFilter();
+}
+
 void FakeVimHandler::setupWidget()
 {
     d->setupWidget();

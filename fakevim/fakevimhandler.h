@@ -111,6 +111,7 @@ public slots:
     void handleInput(const QString &keys);
 
     void installEventFilter();
+    void removeEventFilter();
 
     // Convenience
     void setupWidget();
